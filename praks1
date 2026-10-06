@@ -7,13 +7,13 @@
  kaust: mkdir skriptimine
           cd skriptimine
 
- config: git config --global user.name "GridHouse34"
-         git config --global user.email gridhouse34@gmail.com
+ config: git config --global user.name "sven-erikarro-design"
+         git config --global user.email sven-erik.arro@voco.ee
          git config --global core.editor nano
          
  jälgimine: git init
 
- remote: git remote add {nimi} github@github.com:GridHouse34/{reponimi}.git
+ remote: git remote add {nimi} github@github.com:sven-erikarro-design{reponimi}.git
  remote kontroll: git remote -v
  
  commit uuendused: git add {file}
