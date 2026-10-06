@@ -1,0 +1,21 @@
+* root kasutajana:
+ install: apt-get intall git (või sudo kui on, ei pea logima eraldi rooti)
+ kontrol: which git
+
+* tava kasutaja:
+
+ kaust: mkdir skriptimine
+          cd skriptimine
+
+ config: git config --global user.name "GridHouse34"
+         git config --global user.email gridhouse34@gmail.com
+         git config --global core.editor nano
+         
+ jälgimine: git init
+
+ remote: git remote add {nimi} github@github.com:GridHouse34/{reponimi}.git
+ remote kontroll: git remote -v
+ 
+ commit uuendused: git add {file}
+                   git commit -m "{commit komentaar]"
+                   git push -uf {repo} {branch} 
